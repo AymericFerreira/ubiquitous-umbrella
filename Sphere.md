@@ -69,8 +69,8 @@ rs = 1
 z = random.uniform(-rs, rs)
 theta = random.uniform(0, 2*np.pi)
 
-x = sqrt(rs*rs - z*z) * cos(theta)
-y = sqrt(rs*rs - z*z) * sin(theta)
+x = np.sqrt(rs*rs - z*z) * np.cos(theta)
+y = np.sqrt(rs*rs - z*z) * np.sin(theta)
 
 print(x, y, z)
 ```
@@ -106,9 +106,9 @@ rs = 1
 theta = random.uniform(0, 2*np.pi)
 phi = random.uniform(0, np.pi)
 
-x = rs * sin(θ) cos(φ)
-y = rs * sin(θ) sin(φ)
-z = rs * cos(θ)
+x = rs * np.sin(theta) * np.cos(phi)
+y = rs * np.sin(theta) * np.sin(phi)
+z = rs * np.cos(theta)
 
 print(x, y, z)
 ```
