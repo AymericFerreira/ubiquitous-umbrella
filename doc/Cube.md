@@ -2,7 +2,7 @@
 
 #### Mathematical form
 
-1. Generate 3 random number (x, y, z) uniform between 0 and cube length
+1. Generate 3 random numbers (x, y, z) uniform between 0 and cube length
 
 #### Python code
 

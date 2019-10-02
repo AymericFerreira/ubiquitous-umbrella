@@ -22,7 +22,7 @@ def plot_2D_points(pointlist):
     ax = fig.add_subplot(111)
     # for point in pointlist:
     #     ax.scatter(point[0], point[1])
-    ax.scatter(pointlist[:, 1], pointlist[:, 2])
+    ax.scatter(pointlist[:, 0], pointlist[:, 1])
 
     ax.set_xlabel('X Label')
     ax.set_ylabel('Y Label')
