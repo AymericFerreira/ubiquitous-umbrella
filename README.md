@@ -1,4 +1,6 @@
 # Ubiquitous Umbrella
+Ubiquitous umbrella is a mix between a python package and lesson for point-picking in 2D and 3D.
+
 During my research work I had hard times to find how to generate uniform distribution of random coordinates of points in
 and on simple and complex forms. 
 
