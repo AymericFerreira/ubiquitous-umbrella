@@ -10,11 +10,13 @@ and the mathematical background to understand everything.
 ### Documentation and explanations
 1. 2D objects<br/>
 1.1 [Disk](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Disk.md)<br/>
-1.2 [Square](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Square.md) 
+1.2 [Square](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Square.md)<br/>
+1.3 [Triangle](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Triangle.md)
 
 2. 3D objects<br/>
 2.1 [Sphere](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Sphere.md)<br/>
 2.2 [Cylinder](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Cylinder.md)<br/>
-2.3 [Cube](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Cube.md)
+2.3 [Cube](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Cube.md)<br/>
+2.4 [Tetrahedron](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/Tetrahedron.md) (not done yet)
 
 Drawing by Sylvia Plath (https://en.wikipedia.org/wiki/Sylvia_Plath)
