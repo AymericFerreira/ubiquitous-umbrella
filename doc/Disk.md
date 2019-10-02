@@ -18,7 +18,7 @@
 
 #### Result
 
-![Disk_in](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/disk_in.png)
+![Disk_in](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/images/disk_in.png)
 
 ### Uniform distribution on the edge of the disk
 
@@ -38,4 +38,4 @@
 
 #### Result
 
-![Disk_out](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/disk_out.png)
+![Disk_out](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/images/disk_out.png)
