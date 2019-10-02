@@ -1,6 +1,6 @@
 import random
 import numpy as np
-from visual.visual import plot_points, plot_2D_points
+from visual.visual import plot_points, plot_2D_points, check_uniformity
 import time
 from objects2D.disk import quick_coordinate_in_disk, quick_coordinate_on_disk
 import scipy.stats
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     point1 = coordinate_on_cylinder(1, 10, 1000)
     # print(scipy.stats.chisquare(point1, axis=None))
 
-    plot_2D_points(point1)
+    check_uniformity(point1)
     plot_points(point1)
     end = time.time()
     print(end - start)
