@@ -11,16 +11,22 @@
 #### Python code
 
 ````
+    import random
+    import numpy as np
+
     r = random.uniform(0, radius)
     theta = random.uniform(0, 2*np.pi)
     x = np.sqrt(r) * np.cos(theta)
     y = np.sqrt(r) * np.sin(theta)
     z = random.uniform(0, length)
+
+    print(x, y, z)
 ````
 
 #### Result
 
-![Cylinder_in](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/images/cylinder_in_uniformity.png)
+![Cylinder_in_uniformity](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/images/cylinder_in_uniformity.png)<br/>
+![Cylinder_in](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/images/cylinder_in.png)
 
 ### Uniform distribution on the surface of the cylinder
 
@@ -34,12 +40,18 @@
 #### Python code
 
 ````
+    import random
+    import numpy as np
+
     theta = random.uniform(0, 2*np.pi)
     x = radius * np.cos(theta)
     y = radius * np.sin(theta)
     z = random.uniform(0, length)
+
+    print(x, y, z)
 ````
 
 #### Result
 
-![Cylinder_out](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/images/cylinder_out_uniformity.png)
+![Cylinder_out_uniformity](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/images/cylinder_out_uniformity.png)<br/>
+![Cylinder_out](https://github.com/AymericFerreira/ubiquitous-umbrella/blob/master/doc/images/cylinder_out.png)
